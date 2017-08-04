@@ -1,0 +1,13 @@
+[database]
+host=127.0.0.1
+username=root
+password=
+database=smartCron
+
+[table]
+jobs=jobs
+jobExecution=jobExecution
+jobsOptions=jobsOptions
+JobStep=JobStep
+jobStepExecution=jobStepExecution
+jobStepParameters=jobStepParameters
