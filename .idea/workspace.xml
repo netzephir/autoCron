@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00f56a84-1d97-4501-b015-52862c420ea5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/Interfaces/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../autoCronInterface/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../autoCronInterface/public/css/lib/jquery-sortable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../autoCronInterface/public/js/lib/jquery-sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/autoLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Installer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Interfaces/Module.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Cleaner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Condition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Success.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Utils/Render.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Utils/Renderer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/classes/Utils/Sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Cleaner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Condition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Sql.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Success.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/Welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/partial/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/partial/frame.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/partial/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../phpAppInstaller/views/partial/sidebar.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/FileSizeHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/MemoryManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/config.sample.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/database.sample.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/doctypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/foreign_chars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/mimes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/smileys.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/config/user_agents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/controllers/JobEdit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/controllers/JsCfgGen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/controllers/MainList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/controllers/TemplateSamble.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/libraries/Kint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/libraries/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/libraries/Smartyci.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/libraries/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/CodeTags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/Groups.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/Jobs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/Rights.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/Todo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/TodoList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/config.default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/decorators/plain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/decorators/rich.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/examples/overview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/inc/kintObject.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/inc/kintParser.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/inc/kintVariableData.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/classmethods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/classstatics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/color.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/fspath.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/microtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/objectiterateable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/splobjectstorage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/timestamp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/custom/xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/objects/closure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/objects/smarty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/parsers/objects/splfileinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/base.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/compiled/aante-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/compiled/kint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/compiled/original.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/compiled/solarized-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/compiled/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/themes/aante-light.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/themes/original.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/themes/solarized-dark.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/kint/view/themes/solarized.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/COMPOSER_RELEASE_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/COPYING.lib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/INHERITANCE_RELEASE_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/NEW_FEATURES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/SMARTY_2_BC_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/SMARTY_3.0_BC_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/SMARTY_3.1_NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/change_log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/configs/test.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/cacheresource.apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/cacheresource.memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/cacheresource.mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/cacheresource.pdo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/cacheresource.pdo_gzip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/resource.extendsall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/resource.mysql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/plugins/resource.mysqls.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/templates/footer.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/templates/header.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/demo/templates/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/lexer/smarty_internal_configfilelexer.plex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/lexer/smarty_internal_configfileparser.y" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/lexer/smarty_internal_templatelexer.plex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/lexer/smarty_internal_templateparser.y" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/Smarty.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/SmartyBC.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/debug.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/block.textformat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.counter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.cycle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.fetch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_checkboxes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_radios.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_select_date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_select_time.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.html_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.mailto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/function.math.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.capitalize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.date_format.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.debug_print_var.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.escape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.regex_replace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.replace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.spacify.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifier.truncate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.cat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.count_characters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.count_paragraphs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.count_sentences.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.count_words.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.escape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.from_charset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.indent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.lower.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.noprint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.string_format.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.strip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.strip_tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.to_charset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.unescape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.upper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/modifiercompiler.wordwrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/outputfilter.trimwhitespace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.escape_special_chars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.literal_compiler_param.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.make_timestamp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.mb_str_replace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.mb_unicode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/shared.mb_wordwrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/plugins/variablefilter.htmlspecialchars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_cacheresource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_cacheresource_custom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_cacheresource_keyvaluestore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_cacheresource_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_append.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_assign.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_break.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_call.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_capture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_config_load.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_continue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_eval.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_extends.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_for.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_foreach.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_if.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_include_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_insert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_ldelim.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_make_nocache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_nocache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_block_plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_foreachsection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_function_plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_modifier.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_object_block_function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_object_function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_print_expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_registered_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_registered_function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_private_special_variable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_rdelim.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_section.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_setfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_shared_inheritance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compile_while.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_compilebase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_config_file_compiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_configfilelexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_configfileparser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_extension_clear.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_extension_handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_addautoloadfilters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_adddefaultmodifiers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_append.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_appendbyref.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_assignbyref.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_assignglobal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearallassign.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearallcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearassign.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearcompiledtemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_clearconfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_compileallconfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_compilealltemplates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_configload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_createdata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getautoloadfilters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getconfigvars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getdebugtemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getdefaultmodifiers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getglobal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getregisteredobject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_getstreamvariable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_gettags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_gettemplatevars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_loadfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_loadplugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_mustcompile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registercacheresource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerclass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerobject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerplugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_registerresource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_setautoloadfilters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_setdebugtemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_setdefaultmodifiers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unloadfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unregistercacheresource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unregisterfilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unregisterobject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unregisterplugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_method_unregisterresource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_nocache_insert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_code.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_dq.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_dqcontent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_tag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_parsetree_text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_eval.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_extends.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_registered.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_resource_string.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_cachemodify.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_capture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_codeframe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_filterhandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_foreach.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_getincludepath.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_inheritance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_make_nocache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_tplfunction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_updatecache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_updatescope.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_runtime_writefile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_smartytemplatecompiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_templatebase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_templatecompilerbase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_templatelexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_templateparser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_testinstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_internal_undefined.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_resource_custom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_resource_recompiled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_resource_uncompiled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_template_cached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_template_compiled.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_template_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_template_resource_base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_template_source.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_undefined_variable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smarty_variable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smartycompilerexception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/libs/sysplugins/smartyexception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/third_party/smarty-3.1.30/travis.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/cli/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/errors/rights.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/jobEdit.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/mainList.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/smarty/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/smarty/templates_c/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/template/default.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/application/views/template/empty.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/css/lib/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/css/lib/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/css/lib/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/css/lib/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/css/lib/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/js/lib/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/assets/js/lib/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Benchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/CodeIgniter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Output.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/URI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/Utf8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/compat/hash.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/compat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/compat/mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/compat/password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/compat/standard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/core/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_query_builder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/DB_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/cubrid/cubrid_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/cubrid/cubrid_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/cubrid/cubrid_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/cubrid/cubrid_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/cubrid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/ibase/ibase_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/ibase/ibase_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/ibase/ibase_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/ibase/ibase_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/ibase/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mssql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mssql/mssql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mssql/mssql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mssql/mssql_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mssql/mssql_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysql/mysql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysql/mysql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysql/mysql_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysql/mysql_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysqli/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysqli/mysqli_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysqli/mysqli_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysqli/mysqli_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/mysqli/mysqli_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/oci8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/oci8/oci8_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/oci8/oci8_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/oci8/oci8_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/oci8/oci8_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/odbc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/odbc/odbc_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/odbc/odbc_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/odbc/odbc_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/odbc/odbc_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/pdo_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/pdo_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/pdo_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/pdo_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/postgre/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/postgre/postgre_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/postgre/postgre_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/postgre/postgre_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/postgre/postgre_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite/sqlite_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite/sqlite_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite/sqlite_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite/sqlite_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite3/sqlite3_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite3/sqlite3_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite3/sqlite3_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlite3/sqlite3_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlsrv/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/database/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/fonts/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/fonts/texb.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/array_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/captcha_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/cookie_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/date_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/directory_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/download_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/email_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/file_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/form_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/html_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/inflector_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/language_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/number_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/path_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/security_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/smiley_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/string_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/text_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/typography_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/url_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/helpers/xml_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/calendar_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/date_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/db_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/email_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/form_validation_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/ftp_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/imglib_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/migration_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/number_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/pagination_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/profiler_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/unit_test_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/english/upload_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/language/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/Cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_dummy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_redis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/Cache_wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Cart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Encrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Encryption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Form_validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Image_lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Javascript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Javascript/Jquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/SessionHandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/Session_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/drivers/Session_database_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/drivers/Session_files_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/drivers/Session_memcached_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/drivers/Session_redis_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Session/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Trackback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Typography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Unit_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/User_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Xmlrpc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Xmlrpcs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/Zip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oldPublic/system/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../autoCronInterface/public/css/lib/flatToogle.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/AutoCron.php" afterPath="$PROJECT_DIR$/Core/AutoCron/AutoCron.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/AutoCronBaseElement.php" afterPath="$PROJECT_DIR$/Core/AutoCron/AutoCronBaseElement.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/DbTools.php" afterPath="$PROJECT_DIR$/Core/AutoCron/DbTools.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/Execution.php" afterPath="$PROJECT_DIR$/Core/AutoCron/Execution.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/Job.php" afterPath="$PROJECT_DIR$/Core/AutoCron/Job.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/JobStep.php" afterPath="$PROJECT_DIR$/Core/AutoCron/JobStep.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/JobStepParameters.php" afterPath="$PROJECT_DIR$/Core/AutoCron/JobStepParameters.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/Manager.php" afterPath="$PROJECT_DIR$/Core/AutoCron/Manager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/Tools.php" afterPath="$PROJECT_DIR$/Core/AutoCron/Tools.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/Core/AutoCron/Traits/ExecutionLog.php" afterPath="$PROJECT_DIR$/Core/AutoCron/Traits/ExecutionLog.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/classes/TestCron.php" afterPath="$PROJECT_DIR$/Jobs/TestCron.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/config.iini" afterPath="$PROJECT_DIR$/config/config.ini" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/launcherStandard.php" afterPath="$PROJECT_DIR$/Launchers/launcherStandard.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../autoCronInterface/LICENSE" afterPath="$PROJECT_DIR$/../autoCronInterface/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoLoader.php" afterPath="$PROJECT_DIR$/autoLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/README.md" afterPath="$PROJECT_DIR$/../autoCronInterface/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/config/config.php" afterPath="$PROJECT_DIR$/../autoCronInterface/app/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobStepsController.php" afterPath="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobStepsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobsController.php" afterPath="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/edit.volt" afterPath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/edit.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editParameter.volt" afterPath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editParameter.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editStep.volt" afterPath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editStep.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editTemplates.volt" afterPath="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editTemplates.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/app/views/Templates/index.volt" afterPath="$PROJECT_DIR$/../autoCronInterface/app/views/Templates/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_create.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_create.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_delete.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_delete.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_main.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_main.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_editparameter.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_editparameter.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_editstep.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_editstep.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_edittemplates.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_edittemplates.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_jobconfiguration.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_jobconfiguration.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_jobinformations.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_jobinformations.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_listtemplates.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_listtemplates.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_templates.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_jobs_partials_templates.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_monitoring_main.volt.php" afterPath="$PROJECT_DIR$/../autoCronInterface/cache/_var_www_autocronweb_app_views_monitoring_main.volt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editParameters.js" afterPath="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editParameters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editSteps.js" afterPath="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editSteps.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="630">
+                <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCron.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jobs/TestCron.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Job.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/Interfaces/Job.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="launcherStandard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Launchers/launcherStandard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoCron.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/AutoCron/AutoCron.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Execution.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/AutoCron/Execution.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoLoader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoLoader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../autoCronInterface/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>int</find>
+      <find>$max</find>
+      <find>template-add-param</find>
+      <find>c</find>
+      <find>collapse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$nb3</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../old/index.php" />
+        <option value="$PROJECT_DIR$/../old/chat/test.php" />
+        <option value="$PROJECT_DIR$/../old/cleanbdd/index.php" />
+        <option value="$PROJECT_DIR$/../old/jduval/index.php" />
+        <option value="$PROJECT_DIR$/../old/jduval/include/Config.php" />
+        <option value="$PROJECT_DIR$/../old/mod/index.php" />
+        <option value="$PROJECT_DIR$/../old/modo/index.php" />
+        <option value="$PROJECT_DIR$/../old/poo/index.php" />
+        <option value="$PROJECT_DIR$/../old/trade/index.php" />
+        <option value="$PROJECT_DIR$/../old/worldanno/scripts/connectbdd3.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/classes/Utils/Renderer.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/classes/Modules.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Cleaner.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/classes/Modules/Welcome.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/index.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/autoLoader.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/views/partial/header.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/views/partial/frame.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/classes/Installer.php" />
+        <option value="$PROJECT_DIR$/../phpAppInstaller/views/partial/sidebar.php" />
+        <option value="$PROJECT_DIR$/../algo/index.php" />
+        <option value="$PROJECT_DIR$/../algo/subject2/TriCount.php" />
+        <option value="$PROJECT_DIR$/../algo/subject1/index.php" />
+        <option value="$PROJECT_DIR$/../algo/subject3/index.php" />
+        <option value="$PROJECT_DIR$/../algo/subject2/index.php" />
+        <option value="$PROJECT_DIR$/../algo/subject3/TriCount.php" />
+        <option value="$PROJECT_DIR$/../algo/README.md" />
+        <option value="$PROJECT_DIR$/../algo/subject2/DoubleXor.php" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editParameter.volt" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/public/js/lib/jquery-sortable.js" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/public/css/lib/jquery-sortable.css" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobsController.php" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editJob.js" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/edit.volt" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/views/Templates/index.volt" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editParameters.js" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editTemplates.volt" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/controllers/JobStepsController.php" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editSteps.js" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editStep.volt" />
+        <option value="$PROJECT_DIR$/../autoCronInterface/README.md" />
+        <option value="$PROJECT_DIR$/../algo/subject1/TerrainLeveling.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/autoLoader.php" />
+        <option value="$PROJECT_DIR$/Core/AutoCron/AutoCron.php" />
+        <option value="$PROJECT_DIR$/Core/AutoCron/Execution.php" />
+        <option value="$PROJECT_DIR$/Launchers/launcherStandard.php" />
+        <option value="$PROJECT_DIR$/Core/AutoCron/Interfaces/Job.php" />
+        <option value="$PROJECT_DIR$/Core/Interfaces/Job.php" />
+        <option value="$PROJECT_DIR$/Jobs/TestCron.php" />
+        <option value="$PROJECT_DIR$/.gitIgnore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../old/chatroom/bck/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../old/chatroom/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$USER_HOME$/phalcon/phalcon-devtools/ide/3.1.2/Phalcon" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoCron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoCron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoCronInterface" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoCron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoCron" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/phalcon/phalcon-devtools/ide/3.1.2/Phalcon" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Core" />
+      <recent name="$PROJECT_DIR$/Launchers" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jobs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../phpAppInstaller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00f56a84-1d97-4501-b015-52862c420ea5" name="Default" comment="" />
+      <created>1501864659111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501864659111</updated>
+      <workItem from="1501864849054" duration="1850000" />
+      <workItem from="1501875489659" duration="2017000" />
+      <workItem from="1502031506189" duration="20160000" />
+      <workItem from="1502260494383" duration="4504000" />
+      <workItem from="1502435576209" duration="644000" />
+      <workItem from="1502577566820" duration="14498000" />
+      <workItem from="1502864475878" duration="4422000" />
+      <workItem from="1502886492444" duration="7607000" />
+      <workItem from="1503050090489" duration="918000" />
+      <workItem from="1503326459722" duration="640000" />
+      <workItem from="1503389008752" duration="16000" />
+      <workItem from="1503468744775" duration="2189000" />
+      <workItem from="1503596818735" duration="1453000" />
+      <workItem from="1503642471208" duration="1336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62254000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../phpAppInstaller/classes/Installer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phpAppInstaller/views/partial/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../old/demineur/demineur.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../old/demineur/grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/index.php" />
+    <entry file="file://$PROJECT_DIR$/../algo/subject2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/subject3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editParameter.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/controllers/ControllerBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editJob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/css/lib/jquery-sortable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/listTemplates.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/jobConfiguration.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/jobInformations.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/edit.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Templates/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/js/lib/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/css/lib/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/css/lib/pureToogle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/controllers/JobsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="104" column="54" lean-forward="true" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/models/JobSteps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editParameters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/js/lib/jquery-sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="157" column="10" lean-forward="true" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/public/js/jobs/editSteps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editTemplates.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/controllers/JobStepsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/app/views/Jobs/partials/editStep.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="82" lean-forward="false" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/subject3/TriCount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/subject2/DoubleXor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/subject1/TerrainLeveling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algo/subject1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phpAppInstaller/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/AutoCron/Tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phpAppInstaller/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/LICENSE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="630">
+            <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../autoCronInterface/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/AutoCron/Execution.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/AutoCron/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/AutoCron/AutoCron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Launchers/launcherStandard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Interfaces/Job.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jobs/TestCron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
