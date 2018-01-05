@@ -1,5 +1,27 @@
 {
+    "name": "Netzephir/AutoCron",
+    "description": "Micro-framework for php cron",
+    "license": "MIT",
+    "keywords": ["php","cron","framework"],
+    "authors": [
+        {
+            "name": "Netzephir",
+            "email": "netzephir@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.0.0",
+      "aura/cli":"^2.2",
+      "php-di/php-di" : "^5.4"
+    },
     "require-dev": {
-        "phpunit/phpunit": "^6.2"
+      "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netzephir\\AutoCron\\": "src"
+        }
     }
 }
+
+
